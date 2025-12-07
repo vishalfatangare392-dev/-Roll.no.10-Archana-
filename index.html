@@ -1,0 +1,110 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>My website</title>
+    <style>
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: blue;
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+body 
+.butterfly {
+            position: absolute;
+            width: 70px;
+            animation: fly 10s linear infinite, rainbow 3s linear infinite;
+            opacity: 0.95;
+        }
+
+        /* 🦋 Butterfly Flying Path */
+        @keyframes fly {
+            0%   { transform: translate(-100px, 100vh) rotate(0deg); }
+            25%  { transform: translate(20vw, 60vh) rotate(20deg); }
+            50%  { transform: translate(50vw, 30vh) rotate(-20deg); }
+            75%  { transform: translate(80vw, 50vh) rotate(10deg); }
+            100% { transform: translate(110vw, -100px) rotate(-10deg); }
+        }
+
+        /* 🌈 Rainbow Color Effect */
+        @keyframes rainbow {
+            0%   { filter: hue-rotate(0deg); }
+            25%  { filter: hue-rotate(90deg); }
+            50%  { filter: hue-rotate(180deg); }
+            75%  { filter: hue-rotate(270deg); }
+            100% { filter: hue-rotate(360deg); }
+        }
+
+<body>
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: pink;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+
+</style>
+</head>
+<head>
+    <title>My Website - Home</title>
+    
+</head>
+<body>    
+<!-- 🦋 Multiple Butterflies -->
+    <img src="butterfly.jpg" class="butterfly" style="animation-delay: 0s;">
+    <img src="butterfly.jpg" class="butterfly" style="animation-delay: 2s; width: 60px;">
+    <img src="butterfly.jpg" class="butterfly" style="animation-delay: 4s; width: 80px;">
+    <img src="butterfly.jpg" class="butterfly" style="animation-delay: 6s; width: 50px;">
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="resume.html">Resume</a>
+    <a href="activities.html">Activities</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+
+<div class = " marquee"
+    <h1>Welcome to My Personal Website</h1>
+    </div>
+    <div class = " container"
+    <p>Hello! I am Archana Fatangare and this is my personal portfolio website.</p>
+    </div>
+</body>
+</html>
